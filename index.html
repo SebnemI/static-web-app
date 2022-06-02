@@ -38,7 +38,7 @@
                 var vendor = vendors.options[vendors.selectedIndex].text
                 axios({
                     method: "post",
-                    url: "/api/<your-function-name-here>",
+                    url: "/api/SaveDataToDb",
                     data: {
                         "PartitionKey": "vaccine",
                         "RowKey": email,
